@@ -16,6 +16,9 @@ brew uninstall --cask caesardb          # desinstala la app
 brew uninstall --cask --zap caesardb    # además borra tus conexiones guardadas y credenciales cifradas
 ```
 
+> **Homebrew 7:** si prefieres `brew tap cesargarridor/caesardb` y luego `brew install --cask caesardb`, Homebrew puede pedirte
+> confiar antes en el tap: `brew trust cesargarridor/caesardb`. Con el nombre completo de arriba no hace falta.
+
 > **Aviso:** `--zap` elimina `~/Library/Application Support/CaesarDB`, donde la app guarda tus conexiones y la licencia.
 
 ## Install (macOS)
@@ -27,9 +30,3 @@ brew install --cask cesargarridor/caesardb/caesardb
 Universal installer (Apple Silicon and Intel), signed and notarized by Apple. The app updates itself from inside, so
 `brew upgrade` is only needed if you turn that off. `brew uninstall --cask --zap caesardb` also removes your saved
 connections and encrypted credentials.
-
-## Windows
-
-```powershell
-winget install cesargarridor.CaesarDB
-```

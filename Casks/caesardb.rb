@@ -1,6 +1,6 @@
 cask "caesardb" do
-  version "0.12.14"
-  sha256 "9fed9440d5e0808bb926769ab578a6bdd4b2e30fbadc5fec3f373da414decb4d"
+  version "0.12.15"
+  sha256 "e769942784c43091590d83fd589f3ba477b341e38a93bd950762521bf41effee"
 
   url "https://github.com/cesargarridor/caesardb/releases/download/v#{version}/CaesarDB_#{version}_universal.dmg"
   name "CaesarDB"
